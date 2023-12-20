@@ -1,0 +1,22 @@
+/* Asterik wildcard selector for overiding default styles by browser */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+header {
+    background-color: darkgrey;
+}
+
+/* Main */
+main {
+    background-color: beige;
+}
+
+/* Footer */
+footer {
+    background-color: darkgrey;
+}
