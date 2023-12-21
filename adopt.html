@@ -35,7 +35,37 @@
     </header>
 
     <!-- Main Content-->
-    <main>Main</main>
+    <main>
+        <section id="adopt">
+            <form id="adopt-form" method="post">
+                <h2><i class="fa-solid fa-dog"></i>Rehome a dog!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="immediate">Immediately</label>
+                        <input type="radio" name="adopt_now" id="now" value="now" required checked>
+                    </div>
+                    <div>
+                        <label for="less_than_6_months">1-6 Months</label>
+                        <input type="radio" name="adopt_soon" id="soon" value="soon" required>
+                    </div>
+                    <div>
+                        <label for="6_months">6 Months +</label>
+                        <input type="radio" name="adopt_later" id="later" value="later" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Rehome your dog!</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
