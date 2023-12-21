@@ -27,8 +27,16 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: #21757e;
+}
+
 h1 {
     font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #35d5e7;
 }
 
 /* Main */
