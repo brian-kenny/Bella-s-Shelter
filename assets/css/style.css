@@ -17,6 +17,13 @@ body {
     color: #3a3a3a;
     font-family: 'Aleo', sans-serif;
 }
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #35d5e7;
+}
 /* Header */
 header {
     background-color: darkgrey;
@@ -35,12 +42,7 @@ header a {
     color: #21757e;
 }
 
-h1 {
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #35d5e7;
-}
+
 
 #menu {
     font-size: 110%;
@@ -96,6 +98,22 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(75, 217, 245, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 20px;
+    width: 70%;
+    min-height: 150px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text >h3 {
+    color: #ffffff;
 }
 
 /* Footer */
