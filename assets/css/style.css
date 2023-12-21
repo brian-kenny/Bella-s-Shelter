@@ -87,6 +87,7 @@ main {
     background-color: beige;
     /* Make main fill any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 78px;
 }
 
 /* Footer */
