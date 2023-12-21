@@ -158,6 +158,15 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
+    main {
+        margin-top: 79px;
+    }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
 }
 
 /* Large screens (992px and up) */
