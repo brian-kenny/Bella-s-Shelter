@@ -135,6 +135,16 @@ hr {
     border-top: 1 px #3a3a3a;
     margin: 5px 0;
 }
+
+/* Adopt.html background image */
+#adopt {
+    background: url("../images/adopt.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+
+}
 /* Footer */
 #socials {
     text-align: center;
