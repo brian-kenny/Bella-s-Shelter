@@ -93,5 +93,16 @@ A favicon is shown on each page on the browser tab.
   ### Validator Testing 
 
   * HTML
-    * Index: No errors were returned when passing through the official W3C validator
+    * Index: No errors were returned when passing through the official W3C validator (direct source method).
+    
+    ![screenshot of index validator test](assets/media/indexval.PNG)
+
+    * Our Dogs: No errors were returned when passing through the official W3C validator (direct source method).
+
+    ![screenshot of ourdogs validator test](assets/media/ourdogsval.PNG)
+
+    * Adopt A Dog: No errors were returned when passing through the official W3C validator (direct source method).
+
+    ![screenshot of adoptadog validator test](assets/media/adoptadogval.PNG)
+
 
