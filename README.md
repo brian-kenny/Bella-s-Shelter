@@ -1,39 +1,87 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Bella's Shelter (PP1)
 
-Welcome,
+Bella's Shelter is a responsive website for all users. Connecting people looking to rehome a dog, with one of our rescue dogs. 
+Our goal is to find a loving home for all our dogs.
+![Responsive mockup of landing page](assets/media/amiresponsive.PNG)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## CONTENTS 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## User Experience (UX)
 
-## Codeanywhere Reminders
+### Initial Discussion
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Bella's Shelter is an online website, that provides information on local rescue dogs looking for a new home. The site is a easy way of communicating with our shelter.
 
-`python3 -m http.server`
+#### Key information for site
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* Current rescue dogs available.
+* Ability to adopt a dog.
+* Links to social media for updates.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### User Stories
 
-`http_server`
+#### Client Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Responsive website. 
+* Easy to navigate.
+* Update current dogs that are available to adopt.
+* Allow people to fill out form for a dog adoption.
+* Provide updates of the shelter.
+* Find dogs loving homes.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+#### First Time Visitor Goals
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* To find out information about Bella's Shelter.
+* Easily navigate site.
+* Look through pictures of current dogs.
+* Find links to relavent social media.
 
-To log into the Heroku toolbelt CLI:
+#### Returning Visitor Goals 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Find up to date information.
+* Easily contact the shelter. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Frequenet Visitor Goals
 
----
+* Keep up to date with current dogs.
+* Look at new images added to gallery.
+* Easily contact the shelter.
 
-Happy coding!
+## Design 
+
+### Color Scheme
+
+The site uses a relaxing palette. That is visually pleasing and provides a good contrast for fonts and backgrounds.
+![color palette for site](assets/media/colorpalette.png)
+
+### Typography
+
+Google fonts was used to import the Lato and Aleo fonts. Both are sans-serif and provide a pleasing reading experience.
+
+### Imagery 
+
+All imagery was found from multiple wesbites, all named and credited in the Credits section.
+
+### Wireframes
+
+## Features 
+
+The website contains 3 pages, home page, our dogs page and adopt a dog page.
+
+A favicon is shown on each page on the browser tab.
+
+![favicon is shown](assets/media/faviconexample.PNG)
+
+* Index
+  * Created a toggle dropdown menu for mobile and small screen users
+
+![screenshot of dropdown menu closed](assets/media/dropdownclosed.PNG)
+![screenshot of dropdown menu open](assets/media/dropdownopen.PNG)
+
+* Adopt a dog
+  * Functioning submit form for collecting information of users who are interested in adopting a dog.
+
+![screenshot of form](assets/media/adopt.PNG)
+
+
+
