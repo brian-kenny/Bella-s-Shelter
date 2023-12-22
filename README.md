@@ -83,5 +83,15 @@ A favicon is shown on each page on the browser tab.
 
 ![screenshot of form](assets/media/adopt.PNG)
 
+* Footer 
+  * A fixed footer with social media hrefs.
 
+  ![screenshot of footer](assets/media/footer.PNG)
+
+  ## TESTING
+
+  ### Validator Testing 
+
+  * HTML
+    * Index: No errors were returned when passing through the official W3C validator
 
