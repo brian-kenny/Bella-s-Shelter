@@ -186,7 +186,7 @@ div.gallery {
 
   /* Adopt */
 #adopt {
-    background-color: #046363;
+    background-color: #ffffff;
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -194,8 +194,8 @@ div.gallery {
 }
 
 #adopt-form {
-    color: #036772;
-    background-color: rgba(60, 60, 60, 0.6);
+    color: #ffffff;
+    background-color: rgba(56, 72, 86, 0.8);
     padding: 30px;
 }
 
