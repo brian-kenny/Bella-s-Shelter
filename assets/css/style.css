@@ -22,16 +22,16 @@ h1, h2, h3 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #35d5e7;
+    color: #ffffff;
 }
 /* Header */
 header {
-    background-color: darkgrey;
+    background-color: #384856;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #000000;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -39,10 +39,8 @@ header {
 
 header a {
     text-decoration: none;
-    color: #21757e;
+    color: #ffffff;
 }
-
-
 
 #menu {
     font-size: 110%;
@@ -55,17 +53,17 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid #000000;
 }
 
 /* Nav bar sytles and dropdown toggle */
 nav {
     position: absolute;
-    background-color: darkgrey;
+    background-color: #384856;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #000000;
     display: none;
     top: 100%;
 }
@@ -81,6 +79,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #fafafa;
 }
 
 
@@ -94,7 +93,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero.webp"); 
+    background: url("../images/hero.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -102,7 +101,7 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(75, 217, 245, 0.7);
+    background-color: rgba(56, 72, 86, 0.8);
     font-size: 130%;
     position: absolute;
     bottom: 20px;
@@ -125,6 +124,7 @@ main {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
+    color: #384856;
 }
 
 #about p {
@@ -132,7 +132,7 @@ main {
 }
 
 hr {
-    border-top: 1 px #3a3a3a;
+    border-top: 1 px #000000;
     margin: 5px 0;
 }
 
@@ -193,6 +193,11 @@ div.gallery {
     clear: both;
   }
 /* Footer */
+
+footer {
+    background-color: #384856;
+}
+
 #socials {
     text-align: center;
     padding: 20px 0;
@@ -204,7 +209,7 @@ div.gallery {
 #socials i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #ffffff;
 }
 
 /* Media query for tablets and larger (768px and up) */
